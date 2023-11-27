@@ -1,0 +1,311 @@
+*{
+  
+    margin:0px;
+    padding:0px;
+}
+  
+body{
+ background-color:white;
+}
+ 
+  
+.container1{
+  
+    background-color:#26577C;
+    height:100px;
+    border-bottom: 5px solid #2B2A4C;
+    left:0;
+    right:0;
+}
+
+.judul .Navbar-logo img{
+  border-radius:1rem;
+  width:100px;
+  padding:1px;
+  
+}
+
+.header {
+    width: 30%;
+    float: right;
+    text-align:justify;
+    padding:40px;
+  }
+ 
+.header h2{
+  margin-bottom:10px;
+  text-decoration:none;
+  text-align:center;
+}
+
+.header h2:hover{
+  margin-bottom:10px;
+  color:white;
+  
+}
+.header a{
+  text-decoration:none;
+  margin-right:5px;
+  padding:5px;
+  color:white;
+}
+.header a:hover{
+  color:#96EFFF;
+  border-bottom:1px solid #96EFFF;
+}
+
+
+.Hero{
+  min-height:30vh;
+  align-items:center;
+  background-image:url('awal.jpg');
+
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  position:relative;
+  
+}
+
+.Hero .content h2{
+font-size:4rem;
+color:#26577C;
+text-align:center;
+text-shadow: 2px 2px #96EFFF;
+line-height:5;
+}
+.Hero .content h2:hover{
+  font-size:4rem;
+  color:#96EFFF;
+  text-align:center;
+  text-shadow: 2px 2px #26577C ;
+  }
+  
+  .Hero .content h1{
+  font-size:2rem;
+  color:#26577C;
+  text-align:center;
+  text-shadow: 2px 2px #96EFFF;
+  line-height:5;
+  font-style:italic;
+  
+  }
+  .Hero .content h1:hover{
+    font-size:2rem;
+    color:#96EFFF;
+    text-align:center;
+    text-shadow: 2px 2px #26577C ;
+    }
+
+
+.view{
+  background-image:url('bata');
+
+}
+
+    .view h2{
+      
+      color:#26577C;
+      text-shadow: 2px 2px #96EFFF;
+      line-height:3;
+      text-align:center;
+      margin-bottom:1rem;
+      font-size:6vh;
+      margin-bottom:-140px;
+    
+    }
+    
+    .menu-room{
+      text-align:center;
+      padding:2rem 20%;
+      
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      background:#26577C;
+    }
+   
+    
+   .menu{
+    padding:2rem 5%;
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+   
+
+   }
+   .menu-room1{
+    flex: 1 2000 330px;
+    
+    
+   }
+   .menu-room1 img{
+    height:200px;
+    width:289px;
+    border:3px solid #26577C;
+    margin-top:104px;
+
+   }
+   .menu-room1 h3{
+    padding:6px;
+   }
+   .menu-room1 a{
+    background:#26577C;
+    color:white;
+    text-decoration:none;
+    margin-right:10px;
+    padding:2px;
+    
+   }
+
+   .menu-room1 a:hover{
+    background-color:#96EFFF;
+    color:black;
+  }
+  
+    
+   .menu-room2{
+    flex: 1 60000 300px;
+    
+   }
+   .menu-room2 img{
+    height:200px;
+    width:267px;
+    border:3px solid #26577C;
+   
+    margin-top:104px;
+   }
+
+
+   .menu-room2 h3{
+    padding:6px;
+   }
+   .menu-room2 a{
+    background:#26577C;
+    color:white;
+    text-decoration:none;
+    margin-right:10px;
+    padding:2px;
+    
+   }
+
+   .menu-room2 a:hover{
+    background-color:#96EFFF;
+    color:black;
+  }
+   .menu-room3{
+    flex: 1 900 100px;
+    
+   }
+   .menu-room3 img{
+    height:200px;
+    width:289px;
+    border:3px solid #26577C;
+    
+    margin-top:104px;
+
+   }
+   .menu-room3 a{
+    background:#26577C;
+    color:white;
+    text-decoration:none;
+    margin-right:10px;
+    padding:2px;
+    
+   }
+   .menu-room3 h3{
+    padding:6px;
+   }
+   .menu-room3 a:hover{
+    background-color:#96EFFF;
+    color:black;
+  }
+
+   .menu-room4{
+    flex: 1 3000 440px;
+    
+   }
+   .menu-room4 img{
+    height:200px;
+    width:289px;
+    border:3px solid #26577C;
+    margin-top:30px;
+
+   }
+   .menu-room4 a{
+    background:#26577C;
+    color:white;
+    text-decoration:none;
+    margin-right:10px;
+    padding:2px;
+    
+   }
+   .menu-room4 h3{
+    padding:6px;
+   }
+   .menu-room4 a:hover{
+    background-color:#96EFFF;
+    color:black;
+  }
+
+
+   .menu-room5{
+    flex:1 7000 397px;
+    
+   }
+   .menu-room5 img{
+    height:200px;
+    width:267px;
+    border:3px solid #26577C;
+    margin-top:30px;
+
+   }
+
+   .menu-room5 a{
+    background:#26577C;
+    color:white;
+    text-decoration:none;
+    margin-right:10px;
+    padding:2px;
+    
+   }
+   .menu-room5 h3{
+    padding:6px;
+   }
+   .menu-room5 a:hover{
+    background-color:#96EFFF;
+    color:black;
+  }
+
+
+   .menu-room6{
+    flex: 1000 200000 300px;
+   
+   }
+   .menu-room6 img{
+    height:200px;
+    width:288px;
+    border:3px solid #26577C;
+    margin-top:30px;
+    
+   }
+
+   .menu-room6 a{
+    background:#26577C;
+    color:white;
+    text-decoration:none;
+    margin-right:10px;
+    padding:2px;
+    
+   }
+   .menu-room6 h3{
+    padding:6px;
+   }
+   .menu-room6 a:hover{
+    background-color:#96EFFF;
+    color:black;
+  }
+
+

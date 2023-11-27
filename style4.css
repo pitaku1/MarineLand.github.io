@@ -1,0 +1,128 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+  
+body{
+ background-color:white;
+ background-image: url('bata.unknown');
+}
+  
+.container1{
+    background-color:#26577C;
+    height:100px;
+    border-bottom: 5px solid #2B2A4C;
+    left:0;
+    right:0;
+    position: fixed;
+}
+
+.judul .Navbar-logo{
+  font-size:2rem;
+  font-weight:700;
+  color:#FFFF;
+  font-style:italic;
+  padding:30px;
+}
+
+.header {
+    width: 30%;
+    float: right;
+    text-align:justify;
+    padding:40px;
+  }
+ 
+.header h2{
+  margin-bottom:10px;
+  text-decoration:none;
+  text-align:center;
+}
+
+.header h2:hover{
+  margin-bottom:10px;
+  color:white;
+}
+
+.header a{
+  text-decoration:none;
+  margin-right:5px;
+  padding:5px;
+  color:white;
+}
+
+.header a:hover{
+  color:#513c28;
+  border-bottom:1px solid #513c28;
+}
+
+
+.container2{
+  padding-top: 110px;
+}
+
+.container2 .sub{
+    font-size:2rem;
+    font-weight:700;
+    color:#26577C;
+    font-style:italic;
+    padding:30px;
+    text-align: center;
+}
+
+.about{
+    font-family: 'nanum Gothic';
+    text-align: justify;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 9.5%;
+}
+
+img{
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.gambar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+.akhir {
+    background-color:#26577C;
+    height: 200px;
+    border-bottom: 5px solid #2B2A4C;
+}
+.akhir p{
+    text-align: center;
+    color: white;
+}
+h2{
+    text-align: center;
+    color: white;
+    padding-top: 10;
+    font-family: monospace;
+}
+
+.tiga{
+  border: 1px solid white;
+  text-align: center;
+  float: right;
+  position: absolute;
+  right: 310px;
+}
+
+.dua {
+  float: left;
+  width: 1020px;
+  text-align: left;
+}
+
+.satu{
+  margin-bottom: 10px;
+}
+

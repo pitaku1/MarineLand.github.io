@@ -1,0 +1,124 @@
+form {
+    width: 1000px;
+    height: 1000px;
+}
+
+body {
+    background-color: #2B2A4C;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+p{
+    display: block;
+    font-family: 'Nanum Gothic';
+    padding-bottom: 10px;
+    font-size: 18px;
+    color: #2B2A4C;
+    text-align: justify;
+}
+
+h1 {
+    margin: auto;
+    font-family: Monotype Corsiva;
+    font-size: 40px;
+    color: #2B2A4C;
+}
+
+.elemen1 {
+    width: 500px;
+    display: inline-block;
+    margin-left: 0%;
+}
+
+.elemen2 {
+    width: 500px;
+    display: inline-block;
+    margin-left: 0%;
+}
+
+.elemen4 {
+    width: 500px;
+    display: inline-block;
+    margin-left: 0%;
+}
+  
+label {
+    display: block;
+    font-family: 'Nanum Gothic';
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+  
+input, select, option, textarea {
+    border-radius: 15px;
+    border: 2px solid #2B2A4C;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Nanum Gothic';
+    width: 100%;
+    padding: 15px;
+}
+
+textarea {
+    height: 200px;
+}
+
+hr {
+    border: 1px double #ccc;
+}
+  
+button{
+    margin-top: 15px;
+    height: 50px;
+    width: 150px;
+    background: #2B2A4C;
+    border: none;
+    color: white;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+button:hover {
+    border: 2px solid black;
+}
+
+legend {
+    display: block;
+    font-family: Monotype Corsiva;
+    font-size: 25px;
+    color: #2B2A4C;
+    padding: 5px 10px;
+}
+
+.elemen5 {
+    display: block;
+    font-family: 'Nanum Gothic';
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.wrapper {
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    height: 1150;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 10px 10px black;
+}
+
+fieldset{
+    width: 860px; 
+    border-color: #B99470;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    float: right;
+}

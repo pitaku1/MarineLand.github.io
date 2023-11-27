@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <title>Reservation</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="logo">
+                <img src="logo.png">
+            </div>
+            <div class="slides">
+                <span id="slide-1"></span>
+                <span id="slide-2"></span>
+                <span id="slide-3"></span>
+                <span id="slide-4"></span>
+                <div class="images">
+                    <img src="14.jpg">
+                    <img src="16.jpg">
+                    <img src="15.jpg">
+                    <img src="17.jpg">
+                </div>
+            </div>
+            <div class="navigation">
+                <a href="#slide-1">1</a>
+                <a href="#slide-2">2</a>
+                <a href="#slide-3">3</a>
+                <a href="#slide-4">3</a>
+            </div>
+        </div>
+            <div class="form">
+                <h1>Hotel Reservation</h1>
+                <form name="reservation" action="book.html" method="get">
+                    <div class="elemen">
+                        <label for="fullname">Full Name</label>
+                            <input id="fullname" name="fullname" type="text" placeholder="Celine Ivory" required>
+                        <label for="email">E-mail</label>
+                            <input id="email" name="email"  type="email" placeholder="celine.ivory@email.com" required>
+                        <label for="phone">Phone</label>
+                            <input id="phone" name="phone"  type="tel" placeholder="091-763-8387" required>
+                    <hr>
+                    <div class="elemen2">
+                        <label for="adult">Number of Adults</label>
+                            <input type="number" id="adult" name="total_adults" placeholder="2" min="1" required>
+                    </div>
+                    <div class="elemen3">
+                        <label for="child">Number of Children</label>
+                            <input type="number" id="child" name="total_children" placeholder="2" min="1" required>
+                    </div>
+                    <hr>
+                    <div class="elemen4">
+                        <label for="checkin-date">Check-in Date</label>
+                            <input type="date" id="checkin-date" name="checkin" required>
+                    </div>
+                    <div class="elemen5">
+                        <label for="checkout-date">Check-out Date</label>
+                            <input type="date" id="checkout-date" name="checkin" required>
+                    </div>
+                    <hr>
+                    <div class="elemen6">
+                        <label for="room-selection">Select Room Preference</label>
+                        <select id="room-selection" name="room_preference" required>
+                            <option value="">Choose a Room from the List</option>
+                            <option value="standartroom">Standart Room</option>
+                            <option value="superiorroom">Superior Room</option>
+                            <option value="deluxeroom">Deluxe Room</option>
+                            <option value="presidentialsuiteroom">Presidential Suite Room</option>
+                            <option value="familyroom">Family Room</option>
+                            <option value="singleroom">Single Room</option>
+                        </select>
+                    </div><br>
+                    <div class="elemen7">
+                            <label for="message">Special Request(s)</label>
+                            <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important." required></textarea>
+                    </div><br>
+                    <button type="submit">Book Now</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Review</title>
+        <link rel="stylesheet" href="style3.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="head">
+                <img src="logo.png">
+                <h1>WE APPRECIATE YOUR REVIEW!</h1>
+                <p> Dear Guest,<br> Thank you for staying with us. We hope you were happy with the quality of our services. We would be extremely grateful if you took a moment and reviewed our hotel. Reviews help us get 
+                better for our guests. We would love to learn what you think.</p>
+                <p>Thank you and kind regards,<br>
+                <b>Marine Land</b></p>
+            </div>
+            <form name="review" action="feedback.html" method="get">
+                <fieldset>
+                    <legend>Personal Detail</legend>
+                        <div class="elemen1">
+                            <label for="name">Name</label>
+                                <input id="name" name="name" type="text" placeholder="Celine Ivory" required>
+                        </div>
+                        <div class="elemen2">
+                            <label for="email">E-mail</label>
+                                <input id="email" name="email" type="email" placeholder="celine.ivory@email.com" required>
+                        </div>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Review</legend>
+                        <div class="elemen3">
+                            <label for="feedback">Would you recommend us to a friend?</label>
+                                <input type='radio' name='yes_no' value='yes' required/>Yes
+                                <input type='radio' name='yes_no' value='no' required/>No
+                        </div>
+                        <br>
+                        <div class="elemen4">
+                            <label for="rate">Rate Us</label>
+                                <select id="rate" name="rate" required>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                        </div>
+                        <br>
+                        <div class="elemen5">
+                            <label for="feedback">Any Other Suggestions:</label>
+                            <textarea id="review" name="review" placeholder="Write something.." required></textarea>
+                        </div>
+                </fieldset>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>

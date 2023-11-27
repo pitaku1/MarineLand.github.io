@@ -1,0 +1,147 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+  
+body{
+ background-color:white;
+ background-image: url('bata.unknown');
+}
+ 
+  
+.container1{
+    background-color:#26577C;
+    height:100px;
+    border-bottom: 5px solid #2B2A4C;
+    left:0;
+    right:0;
+    position: fixed;
+}
+
+.judul .Navbar-logo{
+  font-size:2rem;
+  font-weight:700;
+  color:#FFFF;
+  font-style:italic;
+  padding:30px;
+}
+
+.header {
+    width: 30%;
+    float: right;
+    text-align:justify;
+    padding:40px;
+  }
+ 
+.header h2{
+  margin-bottom:10px;
+  text-decoration:none;
+  text-align:center;
+}
+
+.header h2:hover{
+  margin-bottom:10px;
+  color:white;
+}
+
+.header a{
+  text-decoration:none;
+  margin-right:5px;
+  padding:5px;
+  color:white;
+}
+
+.header a:hover{
+  color:#513c28;
+  border-bottom:1px solid #513c28;
+}
+h1 {
+    font-size:2rem;
+    font-weight:500;
+    color:#26577C;
+    font-style:italic;
+    text-align: center;
+    line-height: 30px;
+}
+
+.container2{
+
+}
+
+.Standard{
+    padding-left: 48px;
+    margin: 25px;
+    float: left;
+}
+.Standard p{
+    font-family: Arial;
+    font-size: small;
+    color: #80B3FF;
+}
+h3{
+    font-family: serif;
+    font-size: 20px;
+    color: #26577C;
+}
+
+.Superior{
+    padding-left: 48px;
+    margin: 25px;
+    float: left;
+}
+.Superior p{
+    font-family: Arial;
+    font-size: small;
+    color: #80B3FF;
+}
+.Deluxe{
+    padding-left: 48px;
+    margin: 25px;
+    float: left;
+}
+.Deluxe p{
+    font-family: Arial;
+    font-size: small;
+    color: #80B3FF;
+}
+.Presidential{
+    padding-left: 48px;
+    margin: 25px;  
+    float: left;
+}
+.Presidential p{
+    font-family: Arial;
+    font-size: small;
+    color: #80B3FF;
+}
+
+.family{
+    padding-left: 48px;
+    margin: 25px;
+    float: left;
+}
+.family p{
+    font-family: Arial;
+    font-size: small;
+    color: #80B3FF;
+}
+
+.Single{
+    padding-left: 48px;
+    margin: 25px;
+    float: left;
+}
+.Single p{
+    font-family: Arial;
+    font-size: small;
+    color: #80B3FF;
+}
+
+.container0 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    padding-top: 50px;
+    margin-bottom: -50px;
+}
